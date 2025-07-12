@@ -1,0 +1,20 @@
+site_name: BSES22 Coaching Matrix
+theme: 
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+
+plugins:
+  - search
+  - awesome-pages
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
